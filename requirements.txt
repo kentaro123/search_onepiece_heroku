@@ -10,7 +10,7 @@ neobolt==1.7.17
 neotime==1.7.4
 numpy==1.18.4
 prompt-toolkit==2.0.10
-py2neo==3.2.0
+py2neo==3.1.2
 Pygments==2.3.1
 pytz==2020.1
 six==1.14.0
