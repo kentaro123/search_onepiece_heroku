@@ -1,0 +1,14 @@
+.form-group {
+    background: #FFF;
+    border-color: #FFF;
+    color: #000000;
+    margin: 20px 20px 40px;
+
+   }
+   .jumbotron {
+     background: url('/static/images/title.JPG');
+     background-size:  cover;
+     background-position: center 0%;
+     height: 500px;
+
+ }

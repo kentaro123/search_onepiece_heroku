@@ -1,13 +1,48 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>flask demo app</title>
-  </head>
-  <body>
-    <ul class="entries">
-    {% for entry in entries %}
-      <li>{{entry.title}} / {{entry.text}}</li>
-    {% endfor %}
-    </ul>
-  </body>
+<title>serch onepiece</title>
+<link rel="stylesheet"  href="/static/css/style.css">
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+
+    <head>
+      <div class="jumbotron text-center">
+      </div>
+    </head>
+
+    <body>
+      <div class="container-fluid text-center">
+      <h1>ワンピース悪魔の実検索(60巻まで)</h1>
+    </div>
+        <form action="/result" method="POST">
+          <div class="uk-text container">
+          <div class="uk-width-1-1 row">
+          <div class="col-xs-12 col-10">
+
+            <div calss="form-group">
+              <h3>使い方<br>調べたいワードを入力するだけ！<br>（例）パラミシア，ゴムゴムの実，ルフィ</h3>
+            </div>
+
+
+          <div class="form-group">
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-lg">調査ワード</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" name="entry1" placeholder="種類 or 人物名">
+          </div>
+        </div>
+
+
+            <button type="submit" class="btn btn-primary">seach</button>
+          </div>
+        </div>
+      </div>
+      </form>
+    </body>
 </html>
