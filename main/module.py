@@ -9,8 +9,8 @@ from conf import get_args
 
 class KnowGraph():
     def __init__(self):
-        self.graph = Graph('http://localhost:7474',user=self.args.neo4j_user,password=self.args.neo4j_password)
-        self.write_to_statistics()
+        self.args=get_args()
+        self.graph = Graph('bolt://localhost:7687',user=self.args.neo4j_user,password=self.args.neo4j_password)
     #単一のエンティティを見つける
     def lookup_entry(self,client_params,server_param):
         #ネットワーク検索の深さの設定をサポート
