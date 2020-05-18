@@ -1,6 +1,7 @@
-import flask, request
+import flask
+from flask import request
 from main import app
-from main.models import KnowGraph
+from main.module import KnowGraph
 
 @app.route('/')
 def login():
