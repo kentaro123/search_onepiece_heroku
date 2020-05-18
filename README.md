@@ -4,6 +4,8 @@ search_onepieceをherokuを用いてdeployを試みました．
 今回使用しているデータベースNeo4jがローカルでしか使えないため検索画面までしか表示することができませんでした．もう少し，無料でNeo4jをオンラインで私用することができないかを調査していこうと思います．
 [検索ページへ](https://searchonepieceknowledge.herokuapp.com/)
 
+[検索画面](https://github.com/kentaro123/search_onepiece_heroku/blob/master/sample_photo/%E6%A4%9C%E7%B4%A2%E7%94%BB%E9%9D%A2.png?raw=true)
+
 
 ## システムの説明
 * 検索したいワードを入力すると，その単語に関係のある悪魔の実の種類や人物名が表示される．（例）ゴムゴムの実→モンキー・D・ルフィ
