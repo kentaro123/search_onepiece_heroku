@@ -11,7 +11,7 @@ neotime==1.7.4
 numpy==1.18.4
 prompt-toolkit==2.0.10
 py2neo==3.1.2
-Pygments==2.3.1
+Pygments==2.7.4
 pytz==2020.1
 six==1.14.0
 urllib3==1.24.3
